@@ -1,5 +1,7 @@
-a:link,
-a:visited {
+a,
+a:hover,
+a:focus,
+a:active {
   text-decoration: none;
 }
 
@@ -7,4 +9,10 @@ a:visited {
   font-family: $font-body;
   font-weight: bold;
   font-size: 36px;
+  color: $color-primary;
+}
+
+.nav__link:hover {
+  color: $color-secondary;
+  text-decoration: none;
 }

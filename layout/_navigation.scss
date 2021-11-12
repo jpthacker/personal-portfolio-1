@@ -7,12 +7,14 @@
   &__links-container {
     width: 60%;
     height: 100%;
+    display: flex;
     justify-content: space-evenly;
     align-items: center;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    margin-right: 30px;
   }
 
   &__link {
-    padding: 0 30px;
+    padding: 0 20px;
   }
 }
