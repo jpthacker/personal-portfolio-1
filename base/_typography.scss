@@ -1,0 +1,10 @@
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+.nav__link {
+  font-family: $font-body;
+  font-weight: bold;
+  font-size: 36px;
+}
