@@ -2,9 +2,15 @@ header {
   position: relative;
 }
 
-.display {
+.display-container {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.display {
+  margin: 50px auto;
+  height: 50px;
+  width: 100%;
 }
