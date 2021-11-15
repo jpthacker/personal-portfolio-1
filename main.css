@@ -17,13 +17,13 @@ a:active {
   text-decoration: none;
 }
 
-.display__title {
+.hero__title {
   font-weight: 800;
   font-size: 10em;
   text-align: center;
 }
 
-.display__subtitle {
+.hero__subtitle {
   font-weight: 700;
   font-size: 2.25em;
   text-align: center;
@@ -54,7 +54,7 @@ header {
   background: linear-gradient(#00b2ff 0%, #41bcd7 10%, #70cbc6 30%, #d9d9d9 70%);
 }
 
-.display {
+.hero {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
