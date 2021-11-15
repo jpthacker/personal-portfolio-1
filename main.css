@@ -21,6 +21,7 @@
 
 header {
   position: relative;
+  background: linear-gradient(#00b2ff 0%, #41bcd7 10%, #70cbc6 30%, #d9d9d9 60%);
 }
 
 .display {
@@ -50,13 +51,13 @@ a:active {
 
 .display__title {
   font-weight: 800;
-  font-size: 9em;
+  font-size: 10em;
   text-align: center;
 }
 
 .display__subtitle {
   font-weight: 700;
-  font-size: 4em;
+  font-size: 2.25em;
   text-align: center;
 }
 
