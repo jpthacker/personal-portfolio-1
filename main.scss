@@ -1,7 +1,8 @@
 @import "abstracts/_variables";
+@import "base/_typography";
 @import "layout/_navigation";
 @import "layout/_header";
-@import "base/_typography";
+@import "layout/portfolio";
 
 * {
   margin: 0;

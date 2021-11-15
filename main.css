@@ -1,36 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
-.nav {
-  display: flex;
-  justify-content: flex-end;
-  width: 100%;
-  height: 100px;
-  position: absolute;
-}
-.nav__links-container {
-  width: 60%;
-  height: 100%;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-wrap: wrap;
-  margin-right: 30px;
-}
-.nav__link {
-  padding: 0 20px;
-}
-
-header {
-  position: relative;
-  background: linear-gradient(#00b2ff 0%, #41bcd7 10%, #70cbc6 30%, #d9d9d9 60%);
-}
-
-.display {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
 a,
 a:hover,
 a:focus,
@@ -59,6 +27,43 @@ a:active {
   font-weight: 700;
   font-size: 2.25em;
   text-align: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+}
+.nav__links-container {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-right: 30px;
+}
+.nav__link {
+  padding: 0 20px;
+}
+
+header {
+  position: relative;
+  background: linear-gradient(#00b2ff 0%, #41bcd7 10%, #70cbc6 30%, #d9d9d9 70%);
+}
+
+.display {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.portfolio {
+  min-height: 100vh;
+  background-color: #d9d9d9;
 }
 
 * {
