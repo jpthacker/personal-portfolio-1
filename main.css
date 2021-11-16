@@ -81,8 +81,16 @@ header {
   padding: 150px 0;
 }
 
+[class^=row] {
+  border: solid 2px red;
+  background-color: #ffffff;
+  min-height: 150px;
+}
+
 [class^=col] {
   border: solid 2px #2b9fed;
+  min-height: 50px;
+  padding: 10px;
 }
 
 .portfolio {
