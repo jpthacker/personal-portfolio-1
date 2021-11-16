@@ -84,7 +84,7 @@ header {
 }
 
 .grid-container {
-  padding: 150px 15%;
+  padding: 150px 12%;
 }
 
 [class^=row] {
@@ -106,7 +106,6 @@ header {
 .portfolio__title-container {
   display: flex;
   align-items: center;
-  padding-left: 50px;
 }
 
 * {
