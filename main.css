@@ -36,6 +36,12 @@ a:active {
   text-align: left;
 }
 
+.portfolio__title {
+  padding: 0;
+  margin: 0;
+  font-weight: 300;
+}
+
 .nav {
   display: flex;
   justify-content: flex-end;
@@ -90,13 +96,16 @@ header {
 [class^=col] {
   border: solid 2px #2b9fed;
   min-height: 50px;
-  padding: 10px;
 }
 
 .portfolio {
   min-height: 100vh;
   background-color: #d9d9d9;
   position: relative;
+}
+.portfolio__title-container {
+  display: flex;
+  align-items: center;
 }
 
 * {
