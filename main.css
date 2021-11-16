@@ -39,7 +39,7 @@ a:active {
 .portfolio__title {
   padding: 0;
   margin: 0;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .nav {
@@ -83,8 +83,8 @@ header {
   justify-content: center;
 }
 
-.container {
-  padding: 150px 0;
+.grid-container {
+  padding: 150px 15%;
 }
 
 [class^=row] {
@@ -106,6 +106,7 @@ header {
 .portfolio__title-container {
   display: flex;
   align-items: center;
+  padding-left: 50px;
 }
 
 * {
