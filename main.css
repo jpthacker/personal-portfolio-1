@@ -135,6 +135,26 @@ header {
   display: flex;
   align-items: stretch;
 }
+.portfolio__btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.portfolio__btn {
+  color: #ffec8b;
+  border: solid 2px #ffec8b;
+  border-radius: 30px;
+  padding: 8px 32px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  min-width: 90%;
+}
+.portfolio__btn:hover {
+  color: #2b9fed;
+  border: #2b9fed;
+  cursor: pointer;
+}
 .portfolio__text-container {
   padding: 10px 20px 10px 10px;
 }

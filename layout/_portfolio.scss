@@ -26,6 +26,29 @@
     align-items: stretch;
   }
 
+  &__btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__btn {
+    color: $color-primary;
+    border: solid 2px $color-primary;
+    border-radius: 30px;
+    padding: 8px 32px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-width: 90%;
+  }
+
+  &__btn:hover {
+    color: $color-secondary;
+    border: solid 2px $color-secondary;
+    cursor: pointer;
+  }
+
   &__text-container {
     padding: 10px 20px 10px 10px;
   }
