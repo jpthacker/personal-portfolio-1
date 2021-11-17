@@ -107,6 +107,10 @@ header {
   min-height: 50px;
 }
 
+.btn-row {
+  height: 100%;
+}
+
 .portfolio {
   min-height: 100vh;
   background-color: #d9d9d9;
@@ -120,14 +124,19 @@ header {
 .portfolio__img-container {
   display: flex;
   justify-content: center;
-  padding: 0 15px;
+  padding: 0 20px;
 }
 .portfolio__image {
   width: 100%;
   height: auto;
 }
+.portfolio__btn-row {
+  height: 100%;
+  display: flex;
+  align-items: stretch;
+}
 .portfolio__text-container {
-  padding: 10px;
+  padding: 10px 20px 10px 10px;
 }
 
 * {
