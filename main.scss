@@ -5,13 +5,13 @@
 }
 
 @import "abstracts/_variables";
-@import "base/_typography";
 
 * {
   font-family: $font-body;
   color: $color-primary;
 }
 
+@import "base/_typography";
 @import "layout/_navigation";
 @import "layout/_header";
 @import "layout/_grid";

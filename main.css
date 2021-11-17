@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+* {
+  font-family: "Inter", helvetica, sans-serif;
+  color: #ffec8b;
+}
+
 a,
 a:hover,
 a:focus,
@@ -24,7 +29,7 @@ a:active {
 }
 
 .hero__title {
-  font-weight: 900;
+  font-weight: 700;
   font-size: 10em;
   text-align: center;
   padding-bottom: 30px;
@@ -52,12 +57,7 @@ a:active {
   font-size: 1em;
   font-weight: 400;
   text-align: justify;
-  line-height: 24px;
-}
-
-* {
-  font-family: "Inter", helvetica, sans-serif;
-  color: #ffec8b;
+  line-height: 18px;
 }
 
 .nav {
@@ -102,7 +102,7 @@ header {
 }
 
 .grid-container {
-  padding: 150px 12%;
+  padding: 125px 12%;
 }
 
 [class^=row] {
@@ -156,6 +156,7 @@ header {
   justify-content: space-evenly;
   align-items: center;
   min-width: 70%;
+  max-width: 120px;
 }
 .portfolio__btn:hover {
   color: #2b9fed;
