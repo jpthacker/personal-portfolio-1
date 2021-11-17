@@ -39,7 +39,16 @@ a:active {
 .portfolio__title {
   padding: 0;
   margin: 0;
+  font-size: 1.5em;
   font-weight: 400;
+}
+
+.portfolio__text {
+  font-size: 1em;
+  font-weight: 400;
+  text-align: justify;
+  line-height: 16px;
+  margin: 0;
 }
 
 .nav {
@@ -106,6 +115,19 @@ header {
 .portfolio__title-container {
   display: flex;
   align-items: center;
+  min-height: 70px;
+}
+.portfolio__img-container {
+  display: flex;
+  justify-content: center;
+  padding: 0 15px;
+}
+.portfolio__image {
+  width: 100%;
+  height: auto;
+}
+.portfolio__text-container {
+  padding: 10px;
 }
 
 * {
