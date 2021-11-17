@@ -97,13 +97,10 @@ header {
 }
 
 [class^=row] {
-  border: solid 2px red;
-  background-color: #ffffff;
   min-height: 150px;
 }
 
 [class^=col] {
-  border: solid 2px #2b9fed;
   min-height: 50px;
 }
 
@@ -152,11 +149,15 @@ header {
 }
 .portfolio__btn:hover {
   color: #2b9fed;
-  border: #2b9fed;
+  border: solid 2px #2b9fed;
   cursor: pointer;
 }
 .portfolio__text-container {
   padding: 10px 20px 10px 10px;
+}
+
+.portfolio__btn:hover .portfolio__btn-icon {
+  color: #2b9fed;
 }
 
 * {
