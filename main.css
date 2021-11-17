@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 a,
 a:hover,
 a:focus,
@@ -38,7 +44,6 @@ a:active {
 
 .portfolio__title {
   padding: 0;
-  margin: 0;
   font-size: 1.5em;
   font-weight: 400;
 }
@@ -48,7 +53,6 @@ a:active {
   font-weight: 400;
   text-align: justify;
   line-height: 16px;
-  margin: 0;
 }
 
 .nav {
@@ -121,7 +125,7 @@ header {
 .portfolio__img-container {
   display: flex;
   justify-content: center;
-  padding: 0 20px;
+  padding: 0 40px;
 }
 .portfolio__image {
   width: 100%;
@@ -153,7 +157,7 @@ header {
   cursor: pointer;
 }
 .portfolio__text-container {
-  padding: 10px 20px 10px 10px;
+  padding: 30px 60px 30px 30px;
 }
 
 .portfolio__btn:hover .portfolio__btn-icon {
@@ -161,9 +165,6 @@ header {
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
   font-family: "Inter", helvetica, sans-serif;
   font-weight: 500;
   color: #ffec8b;

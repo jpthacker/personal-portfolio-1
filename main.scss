@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 @import "abstracts/_variables";
 @import "base/_typography";
 @import "layout/_navigation";
@@ -6,9 +12,6 @@
 @import "layout/portfolio";
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
   font-family: $font-body;
   font-weight: 500;
   color: $color-primary;
