@@ -170,3 +170,8 @@ header {
 .portfolio__btn:hover .portfolio__btn-icon {
   color: #2b9fed;
 }
+
+.skills {
+  min-height: 30vh;
+  position: relative;
+}
