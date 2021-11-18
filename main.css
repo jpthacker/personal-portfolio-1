@@ -107,12 +107,10 @@ header {
 
 [class^=row] {
   min-height: 150px;
-  border: solid 2px red;
 }
 
 [class^=col] {
   min-height: 50px;
-  border: solid 2px blue;
 }
 
 .btn-row {
@@ -176,4 +174,13 @@ header {
 .skills {
   min-height: 30vh;
   position: relative;
+}
+.skills__img-container {
+  max-height: 200px;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+.skills__image {
+  object-fit: contain;
 }

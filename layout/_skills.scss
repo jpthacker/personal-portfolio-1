@@ -1,4 +1,15 @@
 .skills {
   min-height: 30vh;
   position: relative;
+
+  &__img-container {
+    max-height: 200px;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+  }
+
+  &__image {
+    object-fit: contain;
+  }
 }
