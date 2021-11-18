@@ -107,10 +107,12 @@ header {
 
 [class^=row] {
   min-height: 150px;
+  border: solid 2px red;
 }
 
 [class^=col] {
   min-height: 50px;
+  border: solid 2px blue;
 }
 
 .btn-row {
