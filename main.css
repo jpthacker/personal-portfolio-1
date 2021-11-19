@@ -188,5 +188,5 @@ header {
 .about {
   min-height: 60vh;
   position: relative;
-  background-color: #6e6e6e;
+  background: linear-gradient(#6e6e6e, #748d9f 99%);
 }
