@@ -2,4 +2,15 @@
   min-height: 60vh;
   position: relative;
   background: linear-gradient(#6e6e6e, #748d9f 99%);
+
+  &__img-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  &__img {
+    width: 100%;
+    height: auto;
+  }
 }

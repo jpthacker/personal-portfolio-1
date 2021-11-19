@@ -132,7 +132,7 @@ header {
   justify-content: center;
   padding: 0 35px;
 }
-.portfolio__image {
+.portfolio__img {
   width: 100%;
   height: auto;
 }
@@ -191,4 +191,13 @@ header {
   min-height: 60vh;
   position: relative;
   background: linear-gradient(#6e6e6e, #748d9f 99%);
+}
+.about__img-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.about__img {
+  width: 100%;
+  height: auto;
 }
