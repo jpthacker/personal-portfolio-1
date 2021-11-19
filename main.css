@@ -52,8 +52,7 @@ a:active {
   font-size: 1.5em;
   font-weight: 400;
 }
-
-.portfolio__text {
+.portfolio__title__text {
   font-size: 1em;
   font-weight: 400;
   line-height: 18px;
@@ -184,4 +183,10 @@ header {
 }
 .skills__image {
   object-fit: contain;
+}
+
+.about {
+  min-height: 60vh;
+  position: relative;
+  background-color: #6e6e6e;
 }
