@@ -105,12 +105,10 @@ header {
 
 [class^=row] {
   min-height: 150px;
-  border: solid 2px orange;
 }
 
 [class^=col] {
   min-height: 50px;
-  border: solid 2px purple;
 }
 
 .btn-row {
@@ -201,4 +199,9 @@ header {
 .about__img {
   width: 100%;
   height: auto;
+}
+
+.contact {
+  min-height: 70vh;
+  position: relative;
 }
