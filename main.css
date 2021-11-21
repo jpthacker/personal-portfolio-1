@@ -160,8 +160,9 @@ header {
   padding-right: 5px;
 }
 .portfolio__btn:hover {
-  color: #2b9fed;
-  border: solid 2px #2b9fed;
+  color: #bdbdbd;
+  border: solid 2px transparent;
+  background-color: #2b9fed;
   cursor: pointer;
 }
 .portfolio__text-container {
@@ -169,7 +170,7 @@ header {
 }
 
 .portfolio__btn:hover .portfolio__btn-icon {
-  color: #2b9fed;
+  color: #bdbdbd;
 }
 
 .skills {
