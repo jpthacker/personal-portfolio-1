@@ -206,4 +206,5 @@ header {
 .contact {
   min-height: 70vh;
   position: relative;
+  background: linear-gradient(#748d9f, #5f809e);
 }
