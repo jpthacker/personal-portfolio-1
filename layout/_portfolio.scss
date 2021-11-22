@@ -48,7 +48,7 @@
   }
 
   &__btn:hover {
-    color: rgb(189, 189, 189);
+    color: rgb(230, 230, 230);
     border: solid 2px transparent;
     background-color: $color-secondary;
     cursor: pointer;
@@ -60,5 +60,5 @@
 }
 
 .portfolio__btn:hover .portfolio__btn-icon {
-  color: rgb(189, 189, 189);
+  color: rgb(230, 230, 230);
 }
