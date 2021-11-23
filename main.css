@@ -9,7 +9,6 @@
   font-family: "Inter", helvetica, sans-serif;
   color: #ffec8b;
   scroll-behavior: smooth;
-  outline: 1px solid red;
 }
 
 a,
@@ -103,7 +102,7 @@ header {
 }
 
 .grid-container {
-  padding: 125px 12% 75px 10%;
+  padding: 125px 12% 100px 10%;
 }
 
 [class^=row] {
@@ -172,10 +171,14 @@ header {
   position: relative;
   background: linear-gradient(#6e6e6e, #748d9f 99%);
 }
+.about__text-container {
+  margin-top: 20px;
+}
 .about__img-container {
+  margin-top: 20px;
   display: flex;
   justify-content: center;
-  padding: 0 20px;
+  padding: 0 5%;
 }
 .about__img {
   width: 100%;
@@ -183,8 +186,7 @@ header {
 }
 
 .contact {
-  min-height: 70vh;
-  position: relative;
+  min-height: 80vh;
   background: linear-gradient(#748d9f, #5f809e);
 }
 .contact__img-container {

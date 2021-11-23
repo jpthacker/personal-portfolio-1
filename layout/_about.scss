@@ -3,10 +3,15 @@
   position: relative;
   background: linear-gradient(#6e6e6e, #748d9f 99%);
 
+  &__text-container {
+    margin-top: 20px;
+  }
+
   &__img-container {
+    margin-top: 20px;
     display: flex;
     justify-content: center;
-    padding: 0 20px;
+    padding: 0 5%;
   }
 
   &__img {
