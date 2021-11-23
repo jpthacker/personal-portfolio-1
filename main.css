@@ -8,6 +8,7 @@
 * {
   font-family: "Inter", helvetica, sans-serif;
   color: #ffec8b;
+  scroll-behavior: smooth;
 }
 
 a,
