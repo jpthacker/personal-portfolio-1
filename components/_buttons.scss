@@ -1,0 +1,24 @@
+.portfolio__btn {
+  color: $color-primary;
+  border: solid 2px $color-primary;
+  border-radius: 30px;
+  padding: 8px 32px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  min-width: 200px;
+
+  &__btn-icon {
+    padding-right: 5px;
+  }
+}
+
+.portfolio__btn:hover {
+  color: $color-secondary;
+  border: solid 2px $color-secondary;
+  cursor: pointer;
+}
+
+.portfolio__btn:hover .portfolio__btn-icon {
+  color: $color-secondary;
+}

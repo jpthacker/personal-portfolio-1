@@ -1,0 +1,29 @@
+.contact {
+  min-height: 70vh;
+  position: relative;
+  background: linear-gradient(#748d9f, #5f809e);
+}
+.contact__img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.contact__img {
+  width: 100%;
+  height: auto;
+}
+.contact__row-container {
+  display: flex;
+  align-items: center;
+}
+.contact__logo-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 30px 100px;
+}
+.contact__logo {
+  max-height: 70px;
+  width: auto;
+}

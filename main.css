@@ -144,31 +144,8 @@ header {
   justify-content: flex-start;
   align-items: center;
 }
-.portfolio__btn {
-  color: #ffec8b;
-  border: solid 2px #ffec8b;
-  border-radius: 30px;
-  padding: 8px 32px;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  min-width: 200px;
-}
-.portfolio__btn-icon {
-  padding-right: 5px;
-}
-.portfolio__btn:hover {
-  color: #e6e6e6;
-  border: solid 2px transparent;
-  background-color: #2b9fed;
-  cursor: pointer;
-}
 .portfolio__text-container {
   padding: 30px 20px 30px 15px;
-}
-
-.portfolio__btn:hover .portfolio__btn-icon {
-  color: #e6e6e6;
 }
 
 .skills {
@@ -224,9 +201,33 @@ header {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  padding: 20px 100px;
+  padding: 30px 100px;
 }
 .contact__logo {
-  max-height: 75px;
+  max-height: 70px;
   height: auto;
+}
+
+.portfolio__btn {
+  color: #ffec8b;
+  border: solid 2px #ffec8b;
+  border-radius: 30px;
+  padding: 8px 32px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  min-width: 200px;
+}
+.portfolio__btn__btn-icon {
+  padding-right: 5px;
+}
+
+.portfolio__btn:hover {
+  color: #2b9fed;
+  border: solid 2px #2b9fed;
+  cursor: pointer;
+}
+
+.portfolio__btn:hover .portfolio__btn-icon {
+  color: #2b9fed;
 }

@@ -32,33 +32,7 @@
     align-items: center;
   }
 
-  &__btn {
-    color: $color-primary;
-    border: solid 2px $color-primary;
-    border-radius: 30px;
-    padding: 8px 32px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    min-width: 200px;
-  }
-
-  &__btn-icon {
-    padding-right: 5px;
-  }
-
-  &__btn:hover {
-    color: rgb(230, 230, 230);
-    border: solid 2px transparent;
-    background-color: $color-secondary;
-    cursor: pointer;
-  }
-
   &__text-container {
     padding: 30px 20px 30px 15px;
   }
-}
-
-.portfolio__btn:hover .portfolio__btn-icon {
-  color: rgb(230, 230, 230);
 }
