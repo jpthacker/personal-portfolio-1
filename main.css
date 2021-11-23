@@ -208,6 +208,10 @@ header {
   height: auto;
 }
 
+.contact__logo:hover {
+  cursor: pointer;
+}
+
 .portfolio__btn {
   color: #ffec8b;
   border: solid 2px #ffec8b;
