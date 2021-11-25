@@ -7,7 +7,7 @@ a:active {
 
 .nav__link {
   font-weight: bold;
-  font-size: 2.25em;
+  font-size: 1.75em;
   color: $color-primary;
 }
 
@@ -44,5 +44,11 @@ a:active {
     font-size: 1em;
     font-weight: 400;
     line-height: 18px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .nav__link {
+    font-size: 2.25em;
   }
 }
