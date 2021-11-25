@@ -12,7 +12,6 @@
   scroll-behavior: smooth;
 }
 
-@import "base/_typography";
 @import "layout/_navigation";
 @import "layout/_header";
 @import "layout/_grid";
@@ -21,3 +20,4 @@
 @import "layout/_about";
 @import "layout/_contact";
 @import "components/_buttons";
+@import "base/_typography";
