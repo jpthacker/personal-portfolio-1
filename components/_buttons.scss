@@ -2,15 +2,13 @@
   color: $color-primary;
   border: solid 2px $color-primary;
   border-radius: 30px;
-  padding: 8px 32px;
+  padding: 8px 20px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  min-width: 200px;
-
-  &__btn-icon {
-    padding-right: 5px;
-  }
+  min-width: 150px;
+  max-width: 200px;
+  width: 100%;
 }
 
 .portfolio__btn:hover {

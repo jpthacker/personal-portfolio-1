@@ -31,7 +31,7 @@ a:active {
 
 .section-title {
   font-weight: 700;
-  font-size: 4em;
+  font-size: 2.5em;
   text-align: left;
 }
 
@@ -51,5 +51,9 @@ a:active {
   .nav__link {
     font-weight: bold;
     font-size: 2.25em;
+  }
+
+  .section-title {
+    font-size: 4em;
   }
 }
