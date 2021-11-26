@@ -107,7 +107,7 @@ header {
 
 @media screen and (min-width: 992px) {
   .grid-container {
-    padding: 125px 12% 100px 10%;
+    padding: 125px 10% 100px 10%;
   }
 }
 
@@ -115,6 +115,17 @@ header {
   min-height: 100vh;
   background: -webkit-gradient(linear, left top, left bottom, from(#d9d9d9), color-stop(50%, #7c8180), color-stop(90%, #6e6e6e));
   background: linear-gradient(#d9d9d9, #7c8180 50%, #6e6e6e 90%);
+}
+
+.portfolio__scroll-container {
+  width: 60vw;
+  overflow-x: scroll;
+  margin: 0 auto;
+}
+
+.portfolio__projects-container {
+  width: 276vw;
+  padding: 125px 0 100px 0;
 }
 
 .portfolio__title-container {
@@ -172,6 +183,15 @@ header {
 
 .portfolio__text-container {
   padding: 30px 20px 30px 15px;
+}
+
+[class*="project--"] {
+  max-width: 62vw;
+  margin-left: 100px;
+}
+
+.portfolio__project--1 {
+  margin-left: 0;
 }
 
 .skills {

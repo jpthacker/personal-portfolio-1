@@ -2,6 +2,18 @@
   min-height: 100vh;
   background: linear-gradient(#d9d9d9, #7c8180 50%, #6e6e6e 90%);
 
+  &__scroll-container {
+    width: 60vw;
+    overflow-x: scroll;
+    margin: 0 auto;
+  }
+
+  &__projects-container {
+    width: 276vw;
+    padding: 125px 0 100px 0;
+    //overflow: hidden;
+  }
+
   &__title-container {
     display: flex;
     align-items: center;
@@ -38,4 +50,13 @@
   &__text-container {
     padding: 30px 20px 30px 15px;
   }
+}
+
+[class*="project--"] {
+  max-width: 62vw;
+  margin-left: 100px;
+}
+
+.portfolio__project--1 {
+  margin-left: 0;
 }
