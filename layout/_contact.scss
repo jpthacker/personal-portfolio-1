@@ -38,6 +38,12 @@
     max-height: 70px;
     height: auto;
   }
+
+  &__btn-container {
+    margin-top: 46px;
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .contact__logo:hover {

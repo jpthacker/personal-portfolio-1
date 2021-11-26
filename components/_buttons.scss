@@ -1,4 +1,4 @@
-.portfolio__btn {
+.btn {
   color: $color-primary;
   border: solid 2px $color-primary;
   border-radius: 30px;
@@ -11,12 +11,12 @@
   width: 100%;
 }
 
-.portfolio__btn:hover {
+.btn:hover {
   color: $color-secondary;
   border: solid 2px $color-secondary;
   cursor: pointer;
 }
 
-.portfolio__btn:hover .portfolio__btn-icon {
+.btn:hover .btn-icon {
   color: $color-secondary;
 }

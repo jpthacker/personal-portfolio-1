@@ -392,6 +392,16 @@
   height: auto;
 }
 
+.contact__btn-container {
+  margin-top: 46px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .contact__logo:hover {
   cursor: pointer;
 }
@@ -405,7 +415,7 @@
   }
 }
 
-.portfolio__btn {
+.btn {
   color: #ffec8b;
   border: solid 2px #ffec8b;
   border-radius: 30px;
@@ -424,13 +434,13 @@
   width: 100%;
 }
 
-.portfolio__btn:hover {
+.btn:hover {
   color: #2b9fed;
   border: solid 2px #2b9fed;
   cursor: pointer;
 }
 
-.portfolio__btn:hover .portfolio__btn-icon {
+.btn:hover .btn-icon {
   color: #2b9fed;
 }
 
