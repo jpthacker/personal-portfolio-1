@@ -81,3 +81,19 @@
 .portfolio__project--1 {
   margin-left: 13px;
 }
+
+@media screen and (min-width: 992px) {
+  .portfolio__projects-container,
+  .portfolio__scroll-container,
+  .portfolio__project-row {
+    all: revert;
+  }
+
+  .grid-container {
+    padding: 125px 10% 100px 10%;
+  }
+
+  .portfolio__project--1 {
+    margin-left: 0;
+  }
+}
