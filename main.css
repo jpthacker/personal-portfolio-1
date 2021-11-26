@@ -10,13 +10,6 @@
   font-family: "Inter", helvetica, sans-serif;
   color: #ffec8b;
   scroll-behavior: smooth;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-  overflow-y: scroll;
-}
-
-*::-webkit-scrollbar {
-  display: none;
 }
 
 .nav {
@@ -128,11 +121,26 @@ header {
   width: 60vw;
   overflow-x: scroll;
   margin: 0 auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.portfolio__scroll-container::-webkit-scrollbar {
+  display: none;
 }
 
 .portfolio__projects-container {
   width: 300vw;
   padding: 125px 0 100px 0;
+}
+
+.portfolio__projects-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .portfolio__title-container {
@@ -194,7 +202,6 @@ header {
 
 [class*="project--"] {
   max-width: 60vw;
-  margin-left: 100px;
 }
 
 .portfolio__project--1 {

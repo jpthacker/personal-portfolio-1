@@ -6,11 +6,22 @@
     width: 60vw;
     overflow-x: scroll;
     margin: 0 auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  &__scroll-container::-webkit-scrollbar {
+    display: none;
   }
 
   &__projects-container {
     width: 300vw;
     padding: 125px 0 100px 0;
+  }
+
+  &__projects-row {
+    display: flex;
+    justify-content: space-between;
   }
 
   &__title-container {
@@ -53,7 +64,6 @@
 
 [class*="project--"] {
   max-width: 60vw;
-  margin-left: 100px;
 }
 
 .portfolio__project--1 {
