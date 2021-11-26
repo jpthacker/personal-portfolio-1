@@ -1,5 +1,4 @@
-header {
-  position: relative;
+.header {
   background: linear-gradient(
     #00b2ff 0%,
     #41bcd7 10%,
@@ -13,4 +12,18 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  position: relative;
+
+  &__arrow-container {
+    top: 85vh;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    max-width: 10vw;
+  }
+
+  &__arrow {
+    max-width: 100%;
+    height: auto;
+  }
 }
