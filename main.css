@@ -339,6 +339,10 @@
   background: linear-gradient(#748d9f, #5f809e);
 }
 
+.contact__grid-container {
+  padding: 125px 15% 100px 15%;
+}
+
 .contact__img-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -355,6 +359,10 @@
 .contact__img {
   width: 100%;
   height: auto;
+}
+
+.contact__text-container {
+  margin-bottom: 30px;
 }
 
 .contact__row-container {
@@ -376,7 +384,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 30px 100px;
+  padding: 30px 50px;
 }
 
 .contact__logo {
@@ -386,6 +394,15 @@
 
 .contact__logo:hover {
   cursor: pointer;
+}
+
+@media screen and (min-height: 992px) {
+  .contact__grid-container {
+    padding: 0;
+  }
+  .contact____logo-container {
+    padding: 100px;
+  }
 }
 
 .portfolio__btn {
@@ -466,6 +483,10 @@ a:active {
   line-height: 18px;
 }
 
+.contact__text {
+  text-align: center;
+}
+
 @media screen and (min-width: 992px) {
   .nav__link {
     font-weight: bold;
@@ -473,6 +494,9 @@ a:active {
   }
   .section-title {
     font-size: 4em;
+  }
+  .contact__text {
+    text-align: left;
   }
 }
 /*# sourceMappingURL=main.css.map */
