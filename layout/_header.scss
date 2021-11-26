@@ -27,3 +27,9 @@
     height: auto;
   }
 }
+
+@media screen and (min-width: 992px) {
+  .hero__arrow {
+    opacity: 0;
+  }
+}

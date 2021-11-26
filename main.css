@@ -101,6 +101,12 @@
   height: auto;
 }
 
+@media screen and (min-width: 992px) {
+  .hero__arrow {
+    opacity: 0;
+  }
+}
+
 .grid-container {
   padding: 125px 20% 100px 20%;
 }
