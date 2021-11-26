@@ -14,7 +14,7 @@
     display: none;
   }
 
-  &__projects-container {
+  &__grid-container {
     width: 300vw;
     padding: 125px 0 100px 0;
   }
@@ -83,7 +83,7 @@
 }
 
 @media screen and (min-width: 992px) {
-  .portfolio__projects-container,
+  .portfolio__grid-container,
   .portfolio__scroll-container,
   .portfolio__project-row {
     all: revert;

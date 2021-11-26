@@ -52,7 +52,7 @@
       <!--Bootstrap grid for Portfolio projects-->
 
       <div class="portfolio__scroll-container">
-        <div class="grid-container portfolio__projects-container">
+        <div class="grid-container portfolio__grid-container">
           <div class="row portfolio__projects-row">
             <!--project 1-->
 
@@ -443,9 +443,9 @@
 
         <!--Bootstrap grid for About section-->
 
-        <div class="grid-container">
+        <div class="grid-container about__grid-container">
           <div class="row">
-            <div class="col-lg-7 about__text-container">
+            <div class="col-lg-7 d-none d-lg-block about__text-container--lg">
               <p class="about__text">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Temporibus perferendis eum tempora consequatur quas labore
@@ -469,12 +469,34 @@
                 dignissimos dolor.
               </p>
             </div>
-            <div class="col-lg-5 about__img-container">
+            <div class="col-sm-6 d-lg-none about__text-container--md-1">
+              <p class="about__text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Temporibus perferendis eum tempora consequatur quas labore
+                cupiditate nesciunt, accusantium omnis neque est veritatis
+                recusandae dolorum tenetur odio soluta, animi atque ipsum
+                officiis beatae autem itaque. Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Aliquam labore voluptatibus
+                odit nisi consectetur accusamus eveniet a ipsa cum impedit?
+              </p>
+            </div>
+            <div class="col-sm-6 col-lg-5 about__img-container">
               <img
                 src="/images/image-frame-desktop.jpg"
                 alt="Jack Thacker headshot"
                 class="about__img"
               />
+            </div>
+            <div class="col-sm-12 d-lg-none about__text-container--md-2">
+              <p class="about__text">
+                Similique quibusdam obcaecati
+                cupiditate unde voluptas, accusamus qui veniam, facere eius quo
+                dignissimos dolor. Molestiae reprehenderit dicta tenetur sed
+                aperiam vel alias praesentium, nemo autem at maiores corporis
+                nihil consectetur, laudantium quidem atque dolores? In nemo
+                delectus quaerat sunt, soluta ea reiciendis placeat cupiditate
+                eaque perferendis?
+              </p>
             </div>
           </div>
         </div>
@@ -489,7 +511,7 @@
 
         <!--Bootstrap grid for Contact section-->
 
-        <div class="grid-container">
+        <div class="grid-container about">
           <div class="row">
             <div class="col-lg-1"></div>
             <div class="col-lg-3 contact__img-container">

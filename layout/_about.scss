@@ -3,19 +3,33 @@
   position: relative;
   background: linear-gradient(#6e6e6e, #748d9f 99%);
 
+  &__grid-container {
+    padding: 125px 15% 100px 15%;
+  }
+
   &__text-container {
     margin-top: 20px;
   }
 
   &__img-container {
-    margin-top: 20px;
     display: flex;
     justify-content: center;
-    padding: 0 5%;
+    padding: 0 5% 5% 5%;
   }
 
   &__img {
-    width: 100%;
+    max-width: 100%;
     height: auto;
+  }
+}
+
+@media screen and (min-height: 992px) {
+  .about__grid-container {
+    padding: 0;
+  }
+
+  .about__img-container {
+    margin-top: 20%;
+    padding: 0 5%;
   }
 }
