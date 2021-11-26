@@ -10,6 +10,13 @@
   font-family: "Inter", helvetica, sans-serif;
   color: #ffec8b;
   scroll-behavior: smooth;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow-y: scroll;
+}
+
+*::-webkit-scrollbar {
+  display: none;
 }
 
 .nav {
@@ -124,7 +131,7 @@ header {
 }
 
 .portfolio__projects-container {
-  width: 276vw;
+  width: 300vw;
   padding: 125px 0 100px 0;
 }
 
@@ -186,12 +193,12 @@ header {
 }
 
 [class*="project--"] {
-  max-width: 62vw;
+  max-width: 60vw;
   margin-left: 100px;
 }
 
 .portfolio__project--1 {
-  margin-left: 0;
+  margin-left: 13px;
 }
 
 .skills {

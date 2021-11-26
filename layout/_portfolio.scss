@@ -9,9 +9,8 @@
   }
 
   &__projects-container {
-    width: 276vw;
+    width: 300vw;
     padding: 125px 0 100px 0;
-    //overflow: hidden;
   }
 
   &__title-container {
@@ -53,10 +52,10 @@
 }
 
 [class*="project--"] {
-  max-width: 62vw;
+  max-width: 60vw;
   margin-left: 100px;
 }
 
 .portfolio__project--1 {
-  margin-left: 0;
+  margin-left: 13px;
 }
