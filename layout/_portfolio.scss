@@ -3,7 +3,7 @@
   background: linear-gradient(#d9d9d9, #7c8180 50%, #6e6e6e 90%);
 
   &__scroll-container {
-    width: 80vw;
+    width: 90vw;
     overflow-x: scroll;
     margin: 0 auto;
     -ms-overflow-style: none;
@@ -76,8 +76,8 @@
 }
 
 [class*="project--"] {
-  min-width: 80vw;
-  max-width: 80vw;
+  min-width: 90vw;
+  max-width: 90vw;
 }
 
 .portfolio__project--1 {

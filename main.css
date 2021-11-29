@@ -162,7 +162,7 @@
 }
 
 .portfolio__scroll-container {
-  width: 80vw;
+  width: 90vw;
   overflow-x: scroll;
   margin: 0 auto;
   -ms-overflow-style: none;
@@ -264,8 +264,8 @@
 }
 
 [class*="project--"] {
-  min-width: 80vw;
-  max-width: 80vw;
+  min-width: 90vw;
+  max-width: 90vw;
 }
 
 .portfolio__project--1 {
@@ -372,7 +372,7 @@
 }
 
 .about__text-container {
-  margin-top: 20px;
+  margin: 20px 0;
 }
 
 .about__img-container {
