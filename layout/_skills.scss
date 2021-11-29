@@ -8,11 +8,23 @@
     max-width: 100%;
     display: flex;
     justify-content: center;
-    padding: 50px;
+    padding: 12%;
   }
 
   &__image {
     object-fit: contain;
     max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .skills__img-container {
+    padding: 8%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .skills__img-container {
+    padding: 4%;
   }
 }

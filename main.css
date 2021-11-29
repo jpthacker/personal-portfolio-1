@@ -339,13 +339,25 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 50px;
+  padding: 12%;
 }
 
 .skills__image {
   -o-object-fit: contain;
      object-fit: contain;
   max-width: 100%;
+}
+
+@media screen and (min-width: 576px) {
+  .skills__img-container {
+    padding: 8%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .skills__img-container {
+    padding: 4%;
+  }
 }
 
 .about {
