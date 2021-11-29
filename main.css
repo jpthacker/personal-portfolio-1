@@ -162,7 +162,7 @@
 }
 
 .portfolio__scroll-container {
-  width: 100vw;
+  width: 80vw;
   overflow-x: scroll;
   margin: 0 auto;
   -ms-overflow-style: none;
@@ -174,7 +174,7 @@
 }
 
 .portfolio__grid-container {
-  width: 450vw;
+  width: 375vw;
   padding: 100px 0 0 0;
 }
 
@@ -264,8 +264,8 @@
 }
 
 [class*="project--"] {
-  min-width: 100vw;
-  max-width: 100vw;
+  min-width: 80vw;
+  max-width: 80vw;
 }
 
 .portfolio__project--1 {
