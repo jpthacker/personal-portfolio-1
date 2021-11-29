@@ -65,7 +65,6 @@
 
 .nav__link {
   padding: 0 20px;
-  opacity: 0;
 }
 
 .section-title-container {
@@ -84,12 +83,6 @@
   padding-left: 8%;
 }
 
-@media screen and (min-width: 576px) {
-  .nav__link {
-    opacity: 1;
-  }
-}
-
 @media screen and (min-width: 992px) {
   .nav__links-container {
     width: 65% !important;
@@ -100,6 +93,23 @@
 .header {
   background: -webkit-gradient(linear, left top, left bottom, from(#00b2ff), color-stop(10%, #41bcd7), color-stop(30%, #70cbc6), color-stop(70%, #d9d9d9));
   background: linear-gradient(#00b2ff 0%, #41bcd7 10%, #70cbc6 30%, #d9d9d9 70%);
+  position: relative;
+}
+
+.greeting-container {
+  position: absolute;
+  margin-top: 60px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.greeting {
+  max-width: 50%;
 }
 
 .hero {
@@ -118,7 +128,7 @@
 }
 
 .hero__arrow-container {
-  top: 85vh;
+  top: 90vh;
   position: absolute;
   left: 50%;
   -webkit-transform: translate(-50%, 0);
@@ -467,6 +477,12 @@ a:hover,
 a:focus,
 a:active {
   text-decoration: none;
+}
+
+.greeting {
+  font-weight: 700;
+  font-size: 5vw;
+  text-align: center;
 }
 
 .nav__link {
