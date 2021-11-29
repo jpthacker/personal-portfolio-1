@@ -52,16 +52,18 @@ a:active {
     font-size: 2.25em;
   }
 
-  .nav__link:hover {
-    color: $color-secondary;
-    text-decoration: none;
-  }
-
   .section-title {
     font-size: 4em;
   }
 
   .contact__text {
     text-align: left;
+  }
+}
+
+@media (hover: hover) {
+  .nav__link:hover {
+    color: $color-secondary;
+    text-decoration: none;
   }
 }
