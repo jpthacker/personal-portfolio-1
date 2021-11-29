@@ -65,6 +65,7 @@
 
 .nav__link {
   padding: 0 20px;
+  opacity: 0;
 }
 
 .section-title-container {
@@ -83,9 +84,15 @@
   padding-left: 8%;
 }
 
+@media screen and (min-width: 576px) {
+  .nav__link {
+    opacity: 1;
+  }
+}
+
 @media screen and (min-width: 992px) {
   .nav__links-container {
-    width: 65%;
+    width: 65% !important;
     margin-right: 30px;
   }
 }
