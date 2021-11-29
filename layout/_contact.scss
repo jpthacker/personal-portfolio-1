@@ -50,9 +50,9 @@
   cursor: pointer;
 }
 
-@media screen and (min-height: 992px) {
+@media screen and (min-width: 992px) {
   .contact__grid-container {
-    padding: 0;
+    padding: 125px 10% 100px 10%;
   }
 
   .contact____logo-container {

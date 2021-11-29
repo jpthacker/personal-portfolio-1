@@ -11,12 +11,24 @@
   width: 100%;
 }
 
+/*.btn:hover {
+  color: $color-primary;
+}*/
+
 .btn:hover {
   color: $color-secondary;
   border: solid 2px $color-secondary;
   cursor: pointer;
 }
 
-.btn:hover .btn-icon {
-  color: $color-secondary;
+@media screen and (min-width: 992px) {
+  .btn:hover {
+    color: $color-secondary;
+    border: solid 2px $color-secondary;
+    cursor: pointer;
+  }
+
+  .btn:hover .btn-icon {
+    color: $color-secondary;
+  }
 }
