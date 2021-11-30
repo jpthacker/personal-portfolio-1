@@ -91,14 +91,14 @@
     width: 60vw;
   }
 
-  [class*="project--"] {
-    max-width: 60vw;
-    min-width: 60vw;
-  }
-
   .portfolio__grid-container {
     width: 300vw;
     padding: 125px 0 100px 0;
+  }
+
+  [class*="project--"] {
+    max-width: 60vw;
+    min-width: 60vw;
   }
 
   .portfolio__title-container {
@@ -125,11 +125,18 @@
 
 @media screen and (min-width: 992px) {
   .portfolio__grid-container,
-  .portfolio__scroll-container,
-  .portfolio__project-row {
+  .portfolio__scroll-container {
     all: revert;
   }
 
+  .portfolio__projects-row {
+    flex-direction: row;
+  }
+
+  [class*="project--"] {
+    max-width: 100%;
+    min-width: 50%;
+  }
   .grid-container {
     padding: 125px 10% 100px 10%;
   }
