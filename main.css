@@ -262,7 +262,7 @@
 }
 
 .portfolio__text-container {
-  padding: 30px;
+  padding: 30px 60px;
 }
 
 [class*="project--"] {
@@ -459,7 +459,7 @@
 }
 
 .contact__logo-container {
-  min-height: 50vh;
+  min-height: 48vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -573,6 +573,7 @@ a:active {
 .greeting {
   font-weight: 700;
   font-size: 5vw;
+  line-height: 30px;
   text-align: center;
 }
 
