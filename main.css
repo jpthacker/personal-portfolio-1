@@ -77,7 +77,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 100%;
+  width: 50vw;
   height: 100px;
   position: absolute;
 }
@@ -102,6 +102,7 @@
   background: -webkit-gradient(linear, left top, left bottom, from(#00b2ff), color-stop(10%, #41bcd7), color-stop(30%, #70cbc6), color-stop(70%, #d9d9d9));
   background: linear-gradient(#00b2ff 0%, #41bcd7 10%, #70cbc6 30%, #d9d9d9 70%);
   position: relative;
+  z-index: -1;
 }
 
 .greeting-container {
@@ -459,7 +460,7 @@
 }
 
 .contact__logo-container {
-  min-height: 48vh;
+  height: 320px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -635,5 +636,44 @@ a:active {
     color: #2b9fed;
     text-decoration: none;
   }
+}
+
+.cloud-container {
+  height: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.cloud {
+  width: 90vw;
+  height: 30%;
+  border-radius: 30%;
+  position: absolute;
+  top: -100vh;
+  left: -200vw;
+  background-color: rgba(255, 0, 0, 0);
+}
+
+.cloud__top--back {
+  -webkit-filter: url(#cloud__filter--top-back);
+          filter: url(#cloud__filter--top-back);
+  -webkit-box-shadow: 205vw 165vh 80px 200px #c9c8c8;
+          box-shadow: 205vw 165vh 80px 200px #c9c8c8;
+}
+
+.cloud__top--mid {
+  -webkit-filter: url(#cloud__filter--top-mid);
+          filter: url(#cloud__filter--top-mid);
+  -webkit-box-shadow: 250px 300vh 500px 50px #9b9b9b;
+          box-shadow: 250px 300vh 500px 50px #9b9b9b;
+  left: -25vw;
+}
+
+.cloud__top--front {
+  -webkit-filter: url(#cloud__filter--top-front);
+          filter: url(#cloud__filter--top-front);
+  -webkit-box-shadow: 300px 300px 500px -100px #6b6b6b;
+          box-shadow: 300px 300px 500px -100px #6b6b6b;
+  left: -25vw;
 }
 /*# sourceMappingURL=main.css.map */

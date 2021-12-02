@@ -1,0 +1,32 @@
+.cloud-container {
+  height: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.cloud {
+  width: 90vw;
+  height: 30%;
+  border-radius: 30%;
+  position: absolute;
+  top: -100vh;
+  left: -200vw;
+  background-color: rgba(255, 0, 0, 0);
+
+  &__top--back {
+    filter: url(#cloud__filter--top-back);
+    box-shadow: 205vw 165vh 80px 200px rgb(201, 200, 200);
+  }
+
+  &__top--mid {
+    filter: url(#cloud__filter--top-mid);
+    box-shadow: 250px 300vh 500px 50px rgb(155, 155, 155);
+    left: -25vw;
+  }
+
+  &__top--front {
+    filter: url(#cloud__filter--top-front);
+    box-shadow: 300px 300px 500px -100px rgb(107, 107, 107);
+    left: -25vw;
+  }
+}

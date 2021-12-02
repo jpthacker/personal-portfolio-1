@@ -18,6 +18,48 @@
     <title>Jack Thacker | Junior Web Developer</title>
   </head>
   <body>
+
+    <!--SVG clouds - cloud code sourced from : https://css-tricks.com/drawing-realistic-clouds-with-svg-and-css/-->
+
+    <div class="cloud-container">
+      <div class="cloud cloud__top--back"></div>
+      <div class="cloud cloud__top--mid"></div>
+      <div class="cloud cloud__top--front"></div>
+
+      <svg width="0" height="0">
+        <!-- Back Layer -->
+        <filter id="cloud__filter--top-back">
+          <feTurbulence
+            type="fractalNoise"
+            baseFrequency="0.006"
+            numOctaves="4"
+            seed="564"
+          />
+          <feDisplacementMap in="SourceGraphic" scale="250" />
+        </filter>
+        <!-- Middle Layer -->
+        <filter id="cloud__filter--top-mid">
+          <feTurbulence
+            type="fractalNoise"
+            baseFrequency="0.009"
+            numOctaves="5"
+            seed="348"
+          />
+          <feDisplacementMap in="SourceGraphic" scale="150" />
+        </filter>
+        <!-- Front Layer -->
+        <filter id="cloud__filter--top-front">
+          <feTurbulence
+            type="fractalNoise"
+            baseFrequency="0.01"
+            numOctaves="4"
+            seed="245"
+          />
+          <feDisplacementMap in="SourceGraphic" scale="150" />
+        </filter>
+      </svg>
+    </div>
+
     <!--Header section, including hero titles and nav links-->
 
     <header class="header">
