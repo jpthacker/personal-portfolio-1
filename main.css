@@ -44,7 +44,7 @@
   width: 100%;
   height: 100px;
   position: absolute;
-  z-index: 1;
+  z-index: 2;
 }
 
 .nav__links-container {
@@ -647,33 +647,33 @@ a:active {
 .cloud {
   width: 90vw;
   height: 30%;
-  border-radius: 30%;
+  border-radius: 60%;
   position: absolute;
   top: -100vh;
   left: -200vw;
   background-color: rgba(255, 0, 0, 0);
 }
 
-.cloud__top--back {
-  -webkit-filter: url(#cloud__filter--top-back);
-          filter: url(#cloud__filter--top-back);
-  -webkit-box-shadow: 205vw 165vh 80px 200px #c9c8c8;
-          box-shadow: 205vw 165vh 80px 200px #c9c8c8;
+.cloud--top {
+  -webkit-filter: url(#cloud__filter--top);
+          filter: url(#cloud__filter--top);
+  -webkit-box-shadow: 205vw 200vh 70px 40px #aaaaaa, 205vw 200vh 400px 170px #c7c7c7, 205vw 175vh 40px 200px white;
+          box-shadow: 205vw 200vh 70px 40px #aaaaaa, 205vw 200vh 400px 170px #c7c7c7, 205vw 175vh 40px 200px white;
 }
 
-.cloud__top--mid {
+.cloud--mid {
   -webkit-filter: url(#cloud__filter--top-mid);
           filter: url(#cloud__filter--top-mid);
-  -webkit-box-shadow: 250px 300vh 500px 50px #9b9b9b;
-          box-shadow: 250px 300vh 500px 50px #9b9b9b;
-  left: -25vw;
+  -webkit-box-shadow: 205px 250vh 500px 150px #a8a8a8;
+          box-shadow: 205px 250vh 500px 150px #a8a8a8;
+  left: -10vw;
 }
 
-.cloud__top--front {
+.cloud--bottom {
   -webkit-filter: url(#cloud__filter--top-front);
           filter: url(#cloud__filter--top-front);
-  -webkit-box-shadow: 300px 300px 500px -100px #6b6b6b;
-          box-shadow: 300px 300px 500px -100px #6b6b6b;
-  left: -25vw;
+  -webkit-box-shadow: 205px 200px 500px 100px red;
+          box-shadow: 205px 200px 500px 100px red;
+  left: -30vw;
 }
 /*# sourceMappingURL=main.css.map */
