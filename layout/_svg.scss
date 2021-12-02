@@ -25,13 +25,16 @@
     border-radius: 70% 15%;
     filter: url(#cloud__filter--mid);
     box-shadow: 215vw 270vh 40px -130px rgb(150, 149, 149),
-      210vw 260vh 80px 70px (rgb(134, 134, 134)),
+      210vw 260vh 80px 70px rgb(134, 134, 134),
       210vw 240vh 200px 150px rgb(196, 196, 196);
   }
 
   &--bottom {
-    filter: url(#cloud__filter--top-front);
-    box-shadow: 205px 200px 500px 100px rgb(255, 0, 0);
-    left: -30vw;
+    width: 110vw;
+    height: 90%;
+    border-radius: 15% 60%;
+    filter: url(#cloud__filter--bottom);
+    box-shadow: 195vw 410vh 70px -40px rgb(82, 82, 82),
+      195vw 370vh 300px 10px rgb(94, 94, 94);
   }
 }

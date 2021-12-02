@@ -8,7 +8,7 @@
 
 * {
   font-family: "Inter", helvetica, sans-serif;
-  color: #ffec8b;
+  color: #ffe864;
   scroll-behavior: smooth;
 }
 
@@ -523,8 +523,8 @@
 }
 
 .btn {
-  color: #ffec8b;
-  border: solid 2px #ffec8b;
+  color: #ffe864;
+  border: solid 2px #ffe864;
   border-radius: 30px;
   padding: 8px 20px;
   display: -webkit-box;
@@ -542,14 +542,9 @@
 }
 
 .btn:hover {
-  color: #ffec8b;
+  color: #ffe864;
 }
 
-/*.btn:hover {
-  color: $color-secondary;
-  border: solid 2px $color-secondary;
-  cursor: pointer;
-}*/
 @media (hover: hover) {
   .btn:hover {
     color: #2b9fed;
@@ -578,7 +573,7 @@ a:active {
 .nav__link {
   font-weight: 600;
   font-size: 1.75em;
-  color: #ffec8b;
+  color: #ffe864;
 }
 
 .hero__title {
@@ -668,10 +663,12 @@ a:active {
 }
 
 .cloud--bottom {
-  -webkit-filter: url(#cloud__filter--top-front);
-          filter: url(#cloud__filter--top-front);
-  -webkit-box-shadow: 205px 200px 500px 100px red;
-          box-shadow: 205px 200px 500px 100px red;
-  left: -30vw;
+  width: 110vw;
+  height: 90%;
+  border-radius: 15% 60%;
+  -webkit-filter: url(#cloud__filter--bottom);
+          filter: url(#cloud__filter--bottom);
+  -webkit-box-shadow: 195vw 410vh 70px -40px #525252, 195vw 370vh 300px 10px #5e5e5e;
+          box-shadow: 195vw 410vh 70px -40px #525252, 195vw 370vh 300px 10px #5e5e5e;
 }
 /*# sourceMappingURL=main.css.map */
