@@ -18,12 +18,16 @@
 .greeting {
   max-width: 50%;
 }
+
 .hero {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  position: relative;
+
+  &__subtitle {
+    z-index: 1;
+  }
 
   &__arrow-container {
     top: 90vh;

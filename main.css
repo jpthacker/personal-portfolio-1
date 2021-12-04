@@ -8,7 +8,7 @@
 
 * {
   font-family: "Inter", helvetica, sans-serif;
-  color: #000000;
+  color: #ffec8b;
   scroll-behavior: smooth;
 }
 
@@ -44,7 +44,6 @@
   width: 100%;
   height: 100px;
   position: absolute;
-  z-index: 1;
 }
 
 .nav__links-container {
@@ -131,7 +130,10 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  position: relative;
+}
+
+.hero__subtitle {
+  z-index: 1;
 }
 
 .hero__arrow-container {
@@ -523,8 +525,8 @@
 }
 
 .btn {
-  color: #000000;
-  border: solid 2px #000000;
+  color: #ffec8b;
+  border: solid 2px #ffec8b;
   border-radius: 30px;
   padding: 8px 20px;
   display: -webkit-box;
@@ -542,7 +544,7 @@
 }
 
 .btn:hover {
-  color: #000000;
+  color: #ffec8b;
 }
 
 @media (hover: hover) {
@@ -573,7 +575,7 @@ a:active {
 .nav__link {
   font-weight: 600;
   font-size: 1.75em;
-  color: #000000;
+  color: #ffec8b;
 }
 
 .hero__title {

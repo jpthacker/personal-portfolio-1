@@ -27,7 +27,7 @@
       <div class="cloud cloud--bottom"></div>
 
       <svg width="0" height="0">
-        <!-- Back Layer -->
+        <!-- top cloud -->
         <filter id="cloud__filter--top">
           <feTurbulence
             type="fractalNoise"
@@ -37,7 +37,7 @@
           />
           <feDisplacementMap in="SourceGraphic" scale="250" />
         </filter>
-        <!-- Middle Layer -->
+        <!-- middle cloud -->
         <filter id="cloud__filter--mid">
           <feTurbulence
             type="fractalNoise"
@@ -47,7 +47,7 @@
           />
           <feDisplacementMap in="SourceGraphic" scale="150" />
         </filter>
-        <!-- Front Layer -->
+        <!-- bottom cloud -->
         <filter id="cloud__filter--bottom">
           <feTurbulence
             type="fractalNoise"
@@ -61,7 +61,6 @@
     </div>
 
     <!--Header section, including hero titles and nav links-->
-
     <header class="header">
       <div class="greeting-container">
         <h2 class="greeting d-sm-none">hi, i'm a junior web developer!</h2>
