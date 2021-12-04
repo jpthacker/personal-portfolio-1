@@ -71,10 +71,8 @@
 @media screen and (min-width: 992px) {
   .greeting-container {
     position: absolute;
-    margin-top: 60px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
+    margin: 150px 0 0 40px;
+    align-items: flex-start;
   }
 
   .greeting {
@@ -83,5 +81,11 @@
 
   .hero__arrow {
     opacity: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .greeting-container {
+    margin: 40px 0 0 40px;
   }
 }

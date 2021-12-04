@@ -48,17 +48,17 @@ a:active {
 
 @media screen and (min-width: 576px) {
   .greeting {
-    font-size: 3vw;
-    line-height: 30px;
+    font-size: 2.5vw;
+    line-height: 2.5vh;
   }
 }
 
 @media screen and (min-width: 992px) {
   .greeting {
     font-weight: 300;
-    font-size: 5vw;
-    line-height: 30px;
-    text-align: center;
+    font-size: calc(1em + 0.3vw);
+    line-height: 2vh;
+    text-align: left;
   }
 
   .nav__link {
