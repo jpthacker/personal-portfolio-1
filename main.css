@@ -102,6 +102,16 @@
   background: linear-gradient(#00b2ff 0%, #41bcd7 10%, #70cbc6 30%, #d9d9d9 70%);
 }
 
+.overlay--header {
+  margin-top: 20%;
+  width: 100%;
+  height: 200%;
+  position: absolute;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 1, 1, 0)), color-stop(25%, rgba(1, 1, 1, 0.1)), color-stop(40%, rgba(1, 1, 1, 0.25)), color-stop(90%, rgba(1, 1, 1, 0)));
+  background: linear-gradient(rgba(1, 1, 1, 0), rgba(1, 1, 1, 0.1) 25%, rgba(1, 1, 1, 0.25) 40%, rgba(1, 1, 1, 0) 90%);
+  z-index: auto;
+}
+
 .greeting-container {
   position: absolute;
   margin-top: 60px;
