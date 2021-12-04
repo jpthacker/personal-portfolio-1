@@ -20,9 +20,11 @@
     color: $color-secondary;
     border: solid 2px $color-secondary;
     cursor: pointer;
+    transition: all ease-in-out 250ms;
   }
 
   .btn:hover .btn-icon {
     color: $color-secondary;
+    transition: all ease-in-out 250ms;
   }
 }
