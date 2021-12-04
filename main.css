@@ -4,7 +4,6 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  border: solid 2px red;
 }
 
 * {
@@ -183,6 +182,9 @@
   .greeting {
     max-width: 90%;
   }
+  .hero__arrow-container {
+    max-width: 8vw;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -346,7 +348,7 @@
     padding: 0 15px;
   }
   .portfolio__arrow--x {
-    max-width: 100%;
+    max-width: 30px;
     height: auto;
   }
   .portfolio__arrow-container {
