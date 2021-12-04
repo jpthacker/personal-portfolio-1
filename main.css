@@ -92,7 +92,7 @@
 
 @media screen and (min-width: 992px) {
   .nav__links-container {
-    width: 65% !important;
+    width: 60% !important;
     margin-right: 30px;
   }
 }
@@ -107,8 +107,8 @@
   width: 100%;
   height: 200%;
   position: absolute;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 1, 1, 0)), color-stop(25%, rgba(1, 1, 1, 0.1)), color-stop(40%, rgba(1, 1, 1, 0.25)), color-stop(90%, rgba(1, 1, 1, 0)));
-  background: linear-gradient(rgba(1, 1, 1, 0), rgba(1, 1, 1, 0.1) 25%, rgba(1, 1, 1, 0.25) 40%, rgba(1, 1, 1, 0) 90%);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 1, 1, 0)), color-stop(40%, rgba(1, 1, 1, 0.1)), color-stop(50%, rgba(1, 1, 1, 0.25)), color-stop(90%, rgba(1, 1, 1, 0)));
+  background: linear-gradient(rgba(1, 1, 1, 0), rgba(1, 1, 1, 0.1) 40%, rgba(1, 1, 1, 0.25) 50%, rgba(1, 1, 1, 0) 90%);
   z-index: auto;
 }
 
@@ -160,7 +160,37 @@
   height: auto;
 }
 
+@media screen and (min-width: 576px) {
+  .greeting-container {
+    margin-top: 150px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .greeting {
+    max-width: 90%;
+  }
+}
+
 @media screen and (min-width: 992px) {
+  .greeting-container {
+    position: absolute;
+    margin-top: 60px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .greeting {
+    max-width: 50%;
+  }
   .hero__arrow {
     opacity: 0;
   }
@@ -576,7 +606,7 @@ a:active {
 }
 
 .greeting {
-  font-weight: 700;
+  font-weight: 300;
   font-size: 5vw;
   line-height: 30px;
   text-align: center;
@@ -593,12 +623,6 @@ a:active {
   font-size: 10vw;
   text-align: center;
   padding-bottom: 30px;
-}
-
-.hero__subtitle {
-  font-weight: 700;
-  font-size: 3.5vw;
-  text-align: center;
 }
 
 .section-title {
@@ -622,7 +646,20 @@ a:active {
   text-align: center;
 }
 
+@media screen and (min-width: 576px) {
+  .greeting {
+    font-size: 3vw;
+    line-height: 30px;
+  }
+}
+
 @media screen and (min-width: 992px) {
+  .greeting {
+    font-weight: 300;
+    font-size: 5vw;
+    line-height: 30px;
+    text-align: center;
+  }
   .nav__link {
     font-weight: bold;
     font-size: 2.25em;
@@ -657,11 +694,11 @@ a:active {
 .cloud--top {
   width: 100%;
   height: 40%;
-  border-radius: 10% 50%;
+  border-radius: 40% 50%;
   -webkit-filter: url(#cloud__filter--top);
           filter: url(#cloud__filter--top);
-  -webkit-box-shadow: 150vw 350px 80px -100px rgba(180, 180, 180, 0.8), 150vw 160px 100px -100px #e6e6e6, 150vw 200px 100px 200px white;
-          box-shadow: 150vw 350px 80px -100px rgba(180, 180, 180, 0.8), 150vw 160px 100px -100px #e6e6e6, 150vw 200px 100px 200px white;
+  -webkit-box-shadow: 150vw 350px 80px -100px rgba(180, 180, 180, 0.8), 150vw 180px 100px -100px #e6e6e6, 150vw 210px 100px 200px white;
+          box-shadow: 150vw 350px 80px -100px rgba(180, 180, 180, 0.8), 150vw 180px 100px -100px #e6e6e6, 150vw 210px 100px 200px white;
 }
 
 .cloud--mid {

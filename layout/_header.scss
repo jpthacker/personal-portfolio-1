@@ -14,8 +14,8 @@
   position: absolute;
   background: linear-gradient(
     rgba(1, 1, 1, 0),
-    rgba(1, 1, 1, 0.1) 25%,
-    rgba(1, 1, 1, 0.25) 40%,
+    rgba(1, 1, 1, 0.1) 40%,
+    rgba(1, 1, 1, 0.25) 50%,
     rgba(1, 1, 1, 0) 90%
   );
   z-index: auto;
@@ -56,8 +56,31 @@
     height: auto;
   }
 }
+@media screen and (min-width: 576px) {
+  .greeting-container {
+    margin-top: 150px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .greeting {
+    max-width: 90%;
+  }
+}
 
 @media screen and (min-width: 992px) {
+  .greeting-container {
+    position: absolute;
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .greeting {
+    max-width: 50%;
+  }
+
   .hero__arrow {
     opacity: 0;
   }
