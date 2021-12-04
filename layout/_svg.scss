@@ -14,8 +14,8 @@
     height: 40%;
     border-radius: 40% 50%;
     filter: url(#cloud__filter--top);
-    box-shadow: 150vw 350px 80px -100px rgba(180, 180, 180, 0.8),
-      150vw 180px 100px -100px rgb(230, 230, 230),
+    box-shadow: 150vw 380px 80px -100px rgba(180, 180, 180, 0.8),
+      150vw 220px 100px -100px rgb(230, 230, 230),
       150vw 210px 100px 200px rgb(255, 255, 255);
   }
 
@@ -35,7 +35,7 @@
     height: 80vh;
     border-radius: 15% 70%;
     filter: url(#cloud__filter--bottom);
-    box-shadow: 140vw 1800px 300px 0px rgba(77, 77, 77, 0.7),
-      140vw 2100px 40px -50px rgba(81, 80, 87, 0.3);
+    box-shadow: 140vw 1880px 20px 0px rgba(77, 77, 77, 0.4),
+      140vw 1900px 20px 20px rgba(81, 80, 87, 0.4);
   }
 }
