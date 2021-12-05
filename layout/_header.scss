@@ -7,22 +7,6 @@
   );
 }
 
-.overlay--header {
-  margin-top: 20%;
-  width: 100%;
-  height: 200%;
-  position: absolute;
-  left: 0;
-  right: 0;
-  background: linear-gradient(
-    rgba(1, 1, 1, 0),
-    rgba(1, 1, 1, 0.1) 40%,
-    rgba(1, 1, 1, 0.25) 50%,
-    rgba(1, 1, 1, 0) 90%
-  );
-  z-index: auto;
-}
-
 .greeting-container {
   position: absolute;
   left: 0;
