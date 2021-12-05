@@ -43,6 +43,7 @@
 
   &__title-container {
     display: flex;
+    justify-content: center;
     align-items: center;
     min-height: 70px;
     padding: 0 30px;
@@ -120,6 +121,7 @@
 
   .portfolio__title-container {
     padding: 0 15px;
+    justify-content: flex-start;
   }
 
   .portfolio__arrow {
