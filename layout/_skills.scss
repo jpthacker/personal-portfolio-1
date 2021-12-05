@@ -13,6 +13,7 @@
   &__image {
     object-fit: contain;
     max-width: 100%;
+    min-height: 100px;
   }
 }
 
