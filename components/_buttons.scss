@@ -11,8 +11,14 @@
   width: 100%;
 }
 
+.btn__icon {
+  color: $color-primary;
+  transition: all ease-in-out 90ms;
+}
+
 .btn:hover {
   color: $color-primary;
+  transition: all ease-in-out 90ms;
 }
 
 @media (hover: hover) {
@@ -20,11 +26,9 @@
     color: $color-secondary;
     border: solid 2px $color-secondary;
     cursor: pointer;
-    transition: all ease-in-out 250ms;
   }
 
-  .btn:hover .btn-icon {
+  .btn:hover .btn__icon {
     color: $color-secondary;
-    transition: all ease-in-out 250ms;
   }
 }

@@ -612,8 +612,16 @@ scrollbar-width: none;*/
   width: 100%;
 }
 
+.btn__icon {
+  color: #ffec8b;
+  -webkit-transition: all ease-in-out 90ms;
+  transition: all ease-in-out 90ms;
+}
+
 .btn:hover {
   color: #ffec8b;
+  -webkit-transition: all ease-in-out 90ms;
+  transition: all ease-in-out 90ms;
 }
 
 @media (hover: hover) {
@@ -621,13 +629,9 @@ scrollbar-width: none;*/
     color: #2b9fed;
     border: solid 2px #2b9fed;
     cursor: pointer;
-    -webkit-transition: all ease-in-out 250ms;
-    transition: all ease-in-out 250ms;
   }
-  .btn:hover .btn-icon {
+  .btn:hover .btn__icon {
     color: #2b9fed;
-    -webkit-transition: all ease-in-out 250ms;
-    transition: all ease-in-out 250ms;
   }
 }
 
